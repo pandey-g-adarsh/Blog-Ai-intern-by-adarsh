@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-primary fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://biz.bot/bizbot-logo-dark.svg" alt="BizBot" width="90" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+              </svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Login">Login</a></li>
+              <li><a class="dropdown-item" href="Resgiter">Resgiter</a></li>
+              
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/022/758/991/non_2x/machine-learning-artificial-intelligence-robot-on-futuristic-background-generative-ai-photo.jpg "
+          class="d-block w-100 " alt="..." height="300px">
+        <div class="carousel-caption  d-md-block">
+          <h1>HOW TO USE AI FOR BUSINESS SUCCESS</h1>
+          <h6>
+            <p>Our times are, fortunately or unfortunately, about to get very interesting. In this blog we unveil how
+              you can win in the upcoming golden dawn of AI!</p>
+          </h6>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuFZTfW-ZQz2Gup0Yxf5xwUWlRENmuEj-FrIqxsgDDs0fH2fS6RJRsia9Vqc_GGXsczLY&usqp=CAU"
+          class="d-block w-100" alt="..." height="300px">
+        <div class="carousel-caption d-md-block">
+          <h1>HOW TO USE AI FOR BUSINESS SUCCESS</h1>
+          <h6>
+            <p>Our times are, fortunately or unfortunately, about to get very interesting. In this blog we unveil how
+              you can win in the upcoming golden dawn of AI!</p>
+          </h6>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.istockphoto.com/id/1387900612/photo/automation-data-analytic-with-robot-and-digital-visualization-for-big-data-scientist.jpg?s=612x612&w=0&k=20&c=50maOJU6CpVC55mYnUqtff2aiaJZ7KlmMn4jNhWD_eo="
+          class="d-block w-100" alt="..." height="300px">
+        <div class="carousel-caption d-md-block">
+          <h1>HOW TO USE AI FOR BUSINESS SUCCESS</h1>
+          <h6>
+            <p>Our times are, fortunately or unfortunately, about to get very interesting. In this blog we unveil how
+              you can win in the upcoming golden dawn of AI!</p>
+          </h6>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+  <div class="px-2 py-2 text-center shadow-sm p-3 mb-0bg-body-tertiary rounded">
+
+    <h2 class="display-5 fw-bold text-body-emphasis">Disclamer</h2>
+    <div class="col-lg-6 mx-auto">
+      <h3>
+        <p class="lead mb-4  fw-medium">This is not an answer cooked up by ChatGPT or via online research. Below is my
+          answer - from a real person in the business of business automation, and it comes from my heart - it is an
+          advice and my viewpoint regarding what I see as the future of business.
+        </p>
+      </h3>
+
+    </div>
+  </div>
+  <div class="p-2 p-md-2 mb-3 rounded text-body-emphasis bg-body-secondary px-4">
+    <div class=" mx-auto col-lg-6 px-0">
+      <h1 class="display-4 fst-italic fw-bold"> Featured of blog post</h1>
+      <p class="lead my-3 fw-medium">Elsewhere in this blog we have discussed that all industries will be "forced" to
+        adapt to AI, and why humans cannot compete with AI. It may look all gloom and doom, but in fact, there's much
+        going on under the surface, which presents entrepreneurs with opportunities to thrive in the AI-commerce era.
+      </p>
+
+    </div>
+  </div>
+
+
+
+  <div class=" container my-4">
+    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+      <div class="col-md-7 order-md-2 p-2">
+        <h2 class="featurette-heading fw-normal lh-1 my-3 fw-bold">AI cannot build personal relationships. <span
+            class="text-body-secondary text-muted">
+          </span></h2>
+        <p class="lead  fw-medium"> It can personalize and make someone an addict behind a digital interface (B2C), but
+          wherever trust and people interaction is required (B2B), people will always win..</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="https://www.jobskills.org/wp-content/uploads/2023/01/future-artificial-intelligence-robot-cyborg-scaled.jpg"
+          width="400" height="300">
+
+      </div>
+    </div>
+
+    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+      <div class="col-md-7 order-md-2 ">
+        <h2 class="featurette-heading fw-bold lh-1  my-4">AI cannot imagine new opportunities. <span
+            class="text-body-secondary"></span></h2>
+        <p class="lead fw-medium">As I write this in 2023, AI can execute, but not imagine. AI-Commerce era is an era of
+          evolving business needs - you need to be constantly on the lookout for new opportunities. You can be sure that
+          thousands of AI millionaires will be minted in the next 2 decades. You can be one of them. We will be
+          discussing AI Business opportunities in this blog in detail.
+          .</p>
+      </div>
+      <div class="col-md-5 order-md-2">
+        <img
+          src="data:image/jpeg;base64,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"
+          width="400" height="350">
+
+      </div>
+    </div>
+
+    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+      <div class="col-md-7 order-md-2 pt-2">
+        <h2 class="featurette-heading fw-bold lh-1 my-3">AI cannot own a business or its profits.. <span
+            class="text-body-secondary"></span></h2>
+        <p class="  lead  fw-medium">For now, only humans can lay claim to business profits. So own AI-driven
+          businesses, use AI in the businesses for your advantage.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="https://st2.depositphotos.com/1025323/8279/i/380/depositphotos_82798682-stock-photo-acceleration-of-connection.jpg"
+          width="400" height="300">
+
+      </div>
+    </div>
+
+    <div class="row featurette d-flex justify-content-center align-item-center my-4">
+      <div class="col-md-7 order-md-2 p-2">
+        <h2 class="featurette-heading fw-bold lh-1 my-3">Manage the human element. <span
+            class="text-body-secondary"></span></h2>
+        <p class="lead fw-medium">Control your expectations - major disruption will come, and it might feel dire. And
+          nothing might seem to work for you. But you have to manage yourself - see, most startups fail. You will have
+          to have multiple attempts to succeed, and you will need to work hard, be nimble and humble to adapt. AI
+          presents an uncertain new world with threats and opportunities like never before, so you will need to
+          constantly learn, explore and experiment. But as I said above, there would be lots of exceptional
+          opportunities during the next 20 years than ever before in the history of mankind.</p>
+      </div>
+
+      <div class="col-md-5 order-md-2">
+        <img
+          src="https://st3.depositphotos.com/13194036/34443/i/380/depositphotos_344437940-stock-photo-attractive-businesswoman-using-digital-tablet.jpg"
+          width="400" height="350">
+
+      </div>
+    </div>
+
+  </div>
+  <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+      <div class="card">
+        
+        
+        
+      
+          <img class="bd-placeholder-img card-img-top" src=" https://st.depositphotos.com/9999814/61465/i/380/depositphotos_614656542-stock-photo-futuristic-robot-artificial-intelligence-huminoid.jpg" width="100%" height="200px" >
+        <div class="card-body">
+          <h4 class="card-title fw-bold"> Primary Business Activity in AI Commerce = Helping your bot succeed!</h4>
+          <p class="card-text fw-medium">The key to winning in the era of Automated Commerce / AI-driven business world is to invest time, money and effort in enabling your bots with the right tools to evolve higher and win more. The more your bot evolves, the more "money games" it can win, the more the credits in your bank accountYou can train your AI only with actual simulations, and interactions with the real world. Data and Time are the two critical factors for it to evolve, until it is an acute disadvantage (it is playing with very evolved bots, in which case it might cost too much "money" to train the AI)
+
+            Get busy setting yourself up for failure, or get busy helping your Bot to succeed!.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3333%; top: 0px;">
+      <div class="card p-3">
+        <figure class="p-3 mb-0">
+          <blockquote class="blockquote">
+            <p class="fw-bold">"Business" is about to become an "evolving video game" which bots play among themselves.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-body-secondary">
+             <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6667%; top: 0px;">
+      <div class="card">
+        <img class="bd-placeholder-img card-img-top" src=" https://st4.depositphotos.com/1381765/24797/i/380/depositphotos_247974548-stock-photo-artificial-intelligence-causing-city-power.jpg" width="100%" height="200px" >
+        <div class="card-body">
+          <h4 class="card-title fw-bold"> A Headstart = Immense Value.</h4>
+          <p class="card-text fw-medium">In the above principle you saw how AI-driven business world / AI-Commerce will evolve - via real-time competition of bots, by learning through various interactions with the real-world, to maximize the goal of profit maximization in business.
+
+            But did you notice the immense financial value of a HEADSTART in this evolutionary game? How much would you invest to EVOLVE your bot up a few notches?No need to invest money - you can get BizBot for free. You need to invest time and effort TODAY to help it learn enough that your BizBot is able to compete by itself against the best in the world by 2027.
+
+            .</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3333%; top: 171px;">
+      <div class="card text-bg-primary text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>When AI does all the work, what will people do?
+
+              People will work on their AI to help it earn more!.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3333%; top: 310px;">
+      <div class="card text-center">
+        <div class="card-body">
+          <h4 class="card-title fw-bold"> Power of AI</h4>
+          <p class="card-text fw-medium">The BIGGEST FAVOR you can do for yourself today is to give your business a HEADSTART in AI Evolution.
+
+            Give it the data, time and the attention it deserves..</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 362px;">
+      <div class="card embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/kopoLzvh5jY"width="100%" height="260" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6667%; top: 378px;">
+      <div class="card p-3 text-end card text-bg-primary text-center ">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p class="card-text fw-bold">Only businesses that start with AI in 2024, can be AI-driven by 2027.
+
+              Only businesses that are AI-driven in 2027, survive till 2030.
+              
+              Why? Evolution!.
+              The development of full artificial intelligence could spell the end of the human race….It would take off on its own, and re-design itself at an ever increasing rate. Humans, who are limited by slow biological evolution, couldn't compete, and would be superseded.”   
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-body-secondary">
+             <cite title="Source Title"></cite>
+          </figcaption>
+        </figure>
+      </div>
+      
+   
+    </div>
+
+
+
+
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3333%; top: 488px;">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title fw-bold"> AI Commerce = Evolutionary Game</h4>
+          <p class="card-text fw-medium">This is quite an old video by OpenAI, but it amply shows the evolution of bots by repeating a game. Winning strategies are formed by each side, until the other side learns to counteract them.
+
+            Please understand that this is the future of AI-driven businesses: Commerce is a multi-player game, and AI Bots are perfect to automate and disrupt them, and turn it into an evolutionary game - by learning using each interaction. Profits become a "score" in this world! They are reflected in bank accounts instead of a scoreboard. This is a video game which has real-world consequences: it is the complete digitization of commerce..</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card text-bg-dark card text-center mb-0">
+    <img src="https://st5.depositphotos.com/66249562/63234/i/450/depositphotos_632343064-stock-photo-artificial-intelligence-neural-network-digital.jpg" class="card-img" alt="..." height="260px">
+    <div class="card-img-overlay">
+      <h1 class="card-title fw-bold">SUMMARY</h1>
+      <h4><p class="card-text fw-bold"> 1. Now you understand how AI-driven business world / AI-Commerce will evolve.</p></h4>
+     <h4> <p class="card-text fw-bold">2. Now you understand the value of a headstart</p></h4>
+      <h4><p class="card-text fw-bold">3. Now you know HOW to give your business a headstart</p></h4>
+    </div>
+  </div>
+
+
+
+
+  <footer class="py-5 ">
+  
+  
+    <div class="row pl-2 ">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          
+          <li class="nav-item mb-2 fw-medium"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5 class="fw-medium">Subscribe to our newsletter</h5>
+          <p class="fw-medium">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p class="fw-medium">© 2023 BizBot, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/>
+        </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
